@@ -4,4 +4,4 @@
 ### Kelas &ensp; : TI 3H
 ### NIM &ensp; : 2141720072
 
-![Screenshot nama](docs/nama.png)
+![Screenshot nama](docs/Nama.png)
