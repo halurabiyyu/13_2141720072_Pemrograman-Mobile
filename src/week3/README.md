@@ -4,7 +4,7 @@
 
 #### Praktikum 1
 
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_praktikum1_langkah1.png)
 
 - Langkah 2 <br>
@@ -12,14 +12,14 @@
 karena variabel test memiliki nilai string "test2" maka program akan mengecek pada kondisi if dan akan memasuki baris kode yang kondisinya sesuai, pada kode ini variabel memiliki kondisi dengan nilai yang sama dengan kondisi dua atau else if(test == "test2") maka akan mencetak "Test2".
 Dan pada pengecekan paling akhir menggunakan if dengan satu baris, karena nilainya sesuai kondisi maka akan dicetak "Test2 again".
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_praktikum1_langkah3_error.png)
 ![Screenshot nama](../../docs/Week3_praktikum1_langkah3_success.png)
 Pada saat pertama dijalankan, kode menunjukan hasil error karena variabel test sudah pernah dideklarasi dan karena variabel test merupakan tipe data string maka penulisan pada pengecekan kondisi belum benar . Kode dibenarkan dengan cara tidak mendeklarasikan ulang tipe data dari variabel dan hanya mengisikan nilai dengan "true". Pada pengecekan if, kondisi dalam pengecekan diubah menjadi test == "true". Maka kode akan berhasil dijalankan dan menghasilkan "kebenaran".
 
 #### Praktikum 2
 
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_praktikum2_langkah1_error.png)
 
 - Langkah 2 <br>
@@ -28,13 +28,13 @@ Kode menghasilkan error karena variabel counter belum didefinisikan
 Hasil Perbaikan Kode
 ![Screenshot nama](../../docs/Week3_praktikum2_langkah2_success.png)
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_praktikum2_langkah3.png)
 Perulangan dengan do-while, yaitu perulangan yang setidaknya menghasilkan 1 perulangan karena pada do-while pengecekan dilakukan pada baris terakhir
 
 #### Praktikum 3
 
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_praktikum3_langkah1.png)
 
 - Langkah 2 <br>
@@ -43,7 +43,7 @@ Kode terjadi error karena variabel index untuk perulangan belum didefinisikan da
 ![Screenshot nama](../../docs/Week3_praktikum3_langkah2.png)
 Membenarkan kode dengan mendefinisikan variabel index dan melakukan increament agar tidak menghasilkan angka yang sama setiap perulangan dan perulangan bisa berhenti pada angka yang ditentukan.
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_praktikum3_langkah3.png)
 Pada kode diatas, program tidak akan mencetak index karena jika index sama dengan 21 maka perulangan akan langsung dihentikan dan jika index lebih dari 1 atau index kurang dari 7 maka perulangan akan langsung menuju pada perulangan berikutnya. Pada kasus ini index memiliki nilai 10 yaitu berarti selalu lebih besar dari 1 dan akan menghasilkan nilai true pada pengecekan kedua maka kode untuk mencetak index tidak akan pernah dijalankan.
 
@@ -53,77 +53,77 @@ Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai
 
 ### **Bagian 3**
 #### Praktikum 1
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum1_langkah1.png)
 
 - Langkah 2 <br>
 Kode diatas adalah untuk membuat list yang mempunyai nilai 1, 2, dan 3. Dan pada baris assert() yaitu untuk pengecekan apakah kondisinya benar
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum1_langkah3.png)
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum1_langkah3_success.png)
 Pada sebelum perbaikan, nilai default null tidak bisa ditetapkan pada list yang bertipe data string. Memperbaiki kode dengan mengganti nilai null dengan string ''.
 
 #### Praktikum 2 
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum2_langkah1.png)
 
 - Langkah 2 <br>
 Pada kode tersebut adalah membuat tipe data set dan memberikan nilainya, selanjutnya set tersebut dicetak
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum2_langkah3.png)
 
 #### Praktikum 3
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum3_langkah1.png)
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum3_langkah1.png)
 
 - Langkah 2 <br>
 Kode tersebut untuk membuat tipe data maps yang mempunyai key dan nilai
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum3_langkah3.png)
 Pada langkah ini, kode tambahan berguna untuk mengganti dan menambahkan nilai baru pada maps
 
 #### Praktikum 4
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum4_langkah1.png)
 
 - Langkah 2 <br>
 Kode tersebut adalah melakukan spread pada list dan melakukan penambahan nilai pada list2 menggunakan spread operator dari list
 
-- Langkah 3
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum4_langkah3.png)
 
-- Langkah 4
+- Langkah 4 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum4_langkah4.png)
 Hasil jika promoActive bernilai true maka nilai 'Outlet' akan dimasukkan kedalam list dan jika bernilai false maka tidak dimasukkan kedalam list.
 
-- Langkah 5
+- Langkah 5 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum4_langkah5.png)
 Kode tersebut berfungsi sama dengan langkah 4, yaitu melakukan pengecekan sebelum memasukan nilai kedalam list
 
-- Langkah 6
+- Langkah 6 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum4_langkah6.png)
 Kode tersebut melakukan penambahan dari listOfInts ke dalam listOfString menggunakan perulangan didalam list
 
 #### Praktikum 5
-- Langkah 1
+- Langkah 1 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum5_langkah1.png)
 
 - Langkah 2 <br>
 Kode tersebut membuat records dan menampilkannya pada console
 
-- Langkah 3 
+- Langkah 3 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum5_langkah3.png)
 Kode tersebut berfungsi untuk menukar nilai 
 
-- Langkah 4
+- Langkah 4 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum5_langkah4.png)
 Membuat record dengan tipe anotasi didalam deklarasi variable
 
-- Langkah 5
+- Langkah 5 <br>
 ![Screenshot nama](../../docs/Week3_bagian3_praktikum5_langkah5.png)
 Membuat record bersifat immutable
 
