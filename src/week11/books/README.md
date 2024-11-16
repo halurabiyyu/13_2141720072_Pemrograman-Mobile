@@ -20,4 +20,4 @@ NIM : 2141720072
 ***substring()*** digunakan untuk mengambil sebagian teks dari sebuah string <br>
 ***catchError()*** digunakan untuk menangani error pada operasi asynchronous
 
-![Soal 3](/assets/soal_3.gif)
+![Soal 3](./assets/soal_3.gif)
