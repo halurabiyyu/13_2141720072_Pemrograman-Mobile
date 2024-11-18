@@ -21,3 +21,12 @@ NIM : 2141720072
 ***catchError()*** digunakan untuk menangani error pada operasi asynchronous
 
 ![Soal 3](./assets/soal_3.gif)
+
+## Soal 4
+
+> Jelaskan maksud kode langkah 1 dan 2 tersebut <br>
+**Jawab :** <br>
+***Langkah 1*** adalah membuat tiga fungsi yang didalamnya terdapat fungsi untuk memberikan delay selama 3 detik.<br>
+***Langkah 2*** adalah membuat fungsi untuk menghitung total dari ketiga fungsi yang sudah dibuat sebelumnya, jadi total tersebut berjumlah sembilan. Setelah mendapatkan total, tipe data total akan diconvert kedalam String.<br>
+
+![Soal 4](./assets/soal_4.gif)
