@@ -30,3 +30,11 @@ NIM : 2141720072
 ***Langkah 2*** adalah membuat fungsi untuk menghitung total dari ketiga fungsi yang sudah dibuat sebelumnya, jadi total tersebut berjumlah sembilan. Setelah mendapatkan total, tipe data total akan diconvert kedalam String.<br>
 
 ![Soal 4](./assets/soal_4.gif)
+
+## Soal 5
+> Jelaskan maksud kode langkah 2 tersebut! <br>
+**Jawab :** <br>
+Pada langkah 2 tersebut membuat variabel Completer sebagai variabel Lokal, di dalam fungsi getNumber() membuat Completer<int>() sebagai variabel lokal.
+Completer digunakan untuk mengontrol penyelesaian dari sebuah Future secara manual. Pada fungsi calculate, memberi delay 5 detik dan memanggil completer pada fungsi tersebut.
+
+![Soal 5](./assets/soal_5.gif)
