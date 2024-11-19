@@ -38,3 +38,8 @@ Pada langkah 2 tersebut membuat variabel Completer sebagai variabel Lokal, di da
 Completer digunakan untuk mengontrol penyelesaian dari sebuah Future secara manual. Pada fungsi calculate, memberi delay 5 detik dan memanggil completer pada fungsi tersebut.
 
 ![Soal 5](./assets/soal_5.gif)
+
+## Soal 6
+> Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut! <br>
+**Jawab :** <br>
+Perbedaannya adalah pada langkah 5-6 ditambahkan try catch untuk meng-handle error jika hasil berupa error
