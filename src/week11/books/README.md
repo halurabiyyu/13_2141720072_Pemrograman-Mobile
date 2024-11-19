@@ -42,4 +42,14 @@ Completer digunakan untuk mengontrol penyelesaian dari sebuah Future secara manu
 ## Soal 6
 > Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut! <br>
 **Jawab :** <br>
-Perbedaannya adalah pada langkah 5-6 ditambahkan try catch untuk meng-handle error jika hasil berupa error
+Perbedaannya adalah pada langkah 5-6 ditambahkan try catch untuk meng-handle error jika hasil berupa error <br>
+
+![Soal 6](./assets/soal_6.gif)
+
+## Soal 7
+![Soal 7](./assets/soal_7.gif)
+
+## Soal 8
+> Jelaskan maksud perbedaan kode langkah 1 dan 4! <br>
+**Jawab :** <br>
+FutureGroup dan Future.wait keduanya digunakan untuk menjalankan beberapa operasi asinkron secara paralel, tetapi dengan cara yang berbeda. **Future.wait** fungsi yang menerima daftar Future dan menjalankannya secara paralel, dan menyelesaikan semuanya sebelum melanjutkan. Fungsi ini cocok jika semua Future sudah jelas di awal. **FutureGroup** digunakan untuk penambahan Future secara dinamis sebelum dipanggil close(), fungsi ini cocok jika Future tidak semuanya diketahui sejak awal. Jadi Gunakan Future.wait untuk solusi yang lebih sederhana dan efisien, dan gunakan FutureGroup untuk lebih fleksibel untuk skenario dinamis.
