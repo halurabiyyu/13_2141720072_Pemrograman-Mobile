@@ -53,3 +53,6 @@ Perbedaannya adalah pada langkah 5-6 ditambahkan try catch untuk meng-handle err
 > Jelaskan maksud perbedaan kode langkah 1 dan 4! <br>
 **Jawab :** <br>
 FutureGroup dan Future.wait keduanya digunakan untuk menjalankan beberapa operasi asinkron secara paralel, tetapi dengan cara yang berbeda. **Future.wait** fungsi yang menerima daftar Future dan menjalankannya secara paralel, dan menyelesaikan semuanya sebelum melanjutkan. Fungsi ini cocok jika semua Future sudah jelas di awal. **FutureGroup** digunakan untuk penambahan Future secara dinamis sebelum dipanggil close(), fungsi ini cocok jika Future tidak semuanya diketahui sejak awal. Jadi Gunakan Future.wait untuk solusi yang lebih sederhana dan efisien, dan gunakan FutureGroup untuk lebih fleksibel untuk skenario dinamis.
+
+## Soal 9
+![Soal 9](./assets/soal_9.gif) <br>
