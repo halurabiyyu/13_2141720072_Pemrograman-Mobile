@@ -56,3 +56,22 @@ FutureGroup dan Future.wait keduanya digunakan untuk menjalankan beberapa operas
 
 ## Soal 9
 ![Soal 9](./assets/soal_9.gif) <br>
+
+
+## Soal 10
+> Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4! <br>
+**Jawab :** <br>
+Hasil pada kode tersebut menghasilkan hasil yang sama pada kode sebelumnya, perbedaannya adalah error di handle pada suatu function, tidak pada widget.
+
+## Soal 11
+![Soal 11](./assets/soal_11.jpg) <br>
+
+## Soal 12
+> Apakah anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Pada hasil yang saya jalankan di browser menghasilkan bisa mendapatkan koordinat GPS karena laptop yang saya gunakan terdapat GPS untuk dijalankan pada browser
+<br> **Hasil Pada Browser** <br>
+
+![Soal 12](./assets/soal_12_browser.png) <br>
+
+
+![Soal 12](./assets/soal_12.gif) <br>

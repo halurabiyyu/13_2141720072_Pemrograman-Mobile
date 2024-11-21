@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:books/geolocation.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const FuturePage(),
+      home: LocationScreen(),
     );
   }
 }
@@ -111,6 +112,18 @@ class _FuturePageState extends State<FuturePage> {
     throw Exception('Something terrible happened');
   }
 
+  Future handleError() async {
+    try {
+      await returnError();
+    }catch(error){
+      setState((){
+        result = error.toString();
+      });
+    }finally {
+      print('Complete');
+    }
+  }
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -124,32 +137,7 @@ class _FuturePageState extends State<FuturePage> {
             ElevatedButton(
               child: const Text('GO!'),
               onPressed: (){
-                returnError().then((value){
-                  setState((){
-                    result = value.toString();
-                  });
-                }).catchError((onError){
-                  setState((){
-                    result = onError.toString();
-                  });
-                }).whenComplete(()=> print('Complete'));
-                // getNumber().then((value){
-                //   setState((){
-                //     result = value.toString();
-                //   });
-                // }).catchError((e){
-                //   result = 'An error occurred';
-                // });
-                // count();
-                // setState(() {
-                //   getData().then((value){
-                //     result = value.body.toString().substring(0, 450);
-                //     setState((){});
-                //   }).catchError((_){
-                //     result = 'An error occurred';
-                //     setState(() {});
-                //   });
-                // });
+                handleError();
               },  
             ),
             const Spacer(),
