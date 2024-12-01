@@ -21,3 +21,6 @@ Pada fungsi initState, sebuah instance NumberStream dan kontrolernya (numberStre
 Fungsi addRandomNumber digunakan untuk menambahkan angka acak ke aliran. Angka tersebut dihasilkan dengan Random, yang menghasilkan angka bulat antara 0 hingga 9, dan kemudian ditambahkan ke sink (aliran input) menggunakan metode addNumberToSink dari NumberStream, yang memicu aliran untuk memancarkan angka baru ke semua pendengar. <br>
 
 ![Soal 6](./assets/soal6.gif)
+
+## Soal 7
+Fungsi addError digunakan untuk memancarkan error ke dalam aliran dengan menambahkan pesan error 'Error' melalui controller.sink.addError. Pada aliran stream.listen, setiap elemen baru yang diterima akan memperbarui nilai lastNumber melalui setState, tetapi jika terjadi error, fungsi onError akan menangani error tersebut dengan memperbarui lastNumber menjadi -1 sebagai tanda kesalahan. Fungsi addRandomNumber memicu error secara eksplisit dengan memanggil metode addError, mensimulasikan skenario di mana error dikirim ke aliran. Kombinasi ini memungkinkan aplikasi untuk menangani data dan error secara responsif dalam aliran yang sama.
